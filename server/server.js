@@ -5,7 +5,7 @@ import connectDB from './config/mongodb.js';  // Include .js extension
 import authRouter from './routes/authRoutes.js'; // Include .js extension
 const app = express();
 const port = process.env.PORT || 4000;
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'
 import userRouter from './routes/userRoutes.js';
 dotenv.config();
 
